@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754225252087",
+    "project_id": "parktogo-1",
+    "storage_bucket": "parktogo-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754225252087:android:e33cc2991ada425ccf35f2",
+        "android_client_info": {
+          "package_name": "com.parktogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754225252087-7rcjuspitga2dg58pl0jnligh805j8pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARHrM_vhsv4P_POKF7U91I0hqET4Ut-zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754225252087-7rcjuspitga2dg58pl0jnligh805j8pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

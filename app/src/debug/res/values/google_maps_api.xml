@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=28:2F:2E:5B:1A:D0:D7:C4:CE:A7:6D:FE:EC:82:C5:F4:FE:22:00:BE%3Bcom.parktogo.ui
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.parktogo.ui
+
+    SHA-1 certificate fingerprint:
+    28:2F:2E:5B:1A:D0:D7:C4:CE:A7:6D:FE:EC:82:C5:F4:FE:22:00:BE
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCCf_e0y-kHapja8qUp6tWgjUcI0U0iZqo</string>
+</resources>

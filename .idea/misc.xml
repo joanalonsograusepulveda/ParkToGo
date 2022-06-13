@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable-v24/custom_settings.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/alpaca__icon___colour_.xml" value="0.3828125" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_age.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_button.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_email_icon.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_gender.xml" value="0.23941368078175895" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_input.xml" value="0.1375" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_iv.xml" value="0.125" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_lock_icon.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_map.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_person.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_person_2.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/custom_settings.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/dialog_custom.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/google_size.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_alpaca_foreground.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.23876221498371336" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_email_24_focused.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_face_24.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_face_24_focused.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.23876221498371336" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_lock_24_focused.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.13680555555555557" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_exit.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1401315789473684" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/ic_login.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/pistawallpaper.xml" value="0.3828125" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/round_corner.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/user_placeholder_error.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/drawable/vector.xml" value="0.3828125" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/activity_home.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/activity_iniciar.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/activity_main.xml" value="0.23915900131406045" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/alert_custom.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/bottom_bar.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/content_main.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/custom_info_windows.xml" value="0.21" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialogExit_view.xml" value="0.22780054644808742" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_actualizado_password_view.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_actualizado_view.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_custom.xml" value="0.18" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_exit_password_view.xml" value="0.1555921052631579" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_exit_view.xml" value="0.21" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_registro_view.xml" value="0.2" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/dialog_view.xml" value="0.2" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_actualizar_password.xml" value="0.2" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_actualizar_perfil.xml" value="0.18" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_ajustes.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_crear_perfil.xml" value="0.2" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_inicio.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_mapa.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_mapas.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_maps.xml" value="0.22" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_password.xml" value="0.22" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/layout/fragment_registro.xml" value="0.1" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/mipmap-anydpi-v26/ic_alpaca.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/mipmap-anydpi-v26/ic_alpaca_round.xml" value="0.24177631578947367" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1401315789473684" />
+        <entry key="..\:/Users/PcCom/AndroidStudioProjects/ParkToGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1401315789473684" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.AjustesFragment"
+    android:forceDarkAllowed="false">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pistawallpaper_3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:shadowColor="#3E3E3E"
+        android:shadowDx="2"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="ParkToGo"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="170dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/alpaca__icon___colour_" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Ajustes"
+        android:textColor="#997588"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btnCambiarConstrasenyaAjustes"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#997588"
+        android:text="Cambiar contraseña"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/pass"
+        android:textAllCaps="false"
+        android:textColor="#F7EEE7"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnActualizarAjustes"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F7EEE7"
+        android:text="Actualizar cuenta"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/nube"
+        android:textAllCaps="false"
+        android:textColor="#997588"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCambiarConstrasenyaAjustes" />
+
+    <Button
+        android:id="@+id/btnDesconectarAjustes"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#997588"
+        android:text="Cerrar Session"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/exit"
+        android:textAllCaps="false"
+        android:textColor="#F7EEE7"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarAjustes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

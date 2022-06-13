@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ParkToGo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_mail">Ingrese un mail valido</string>
+    <string name="invalid_password">Ingrese un password mayor a 6 digitos</string>
+    <string name="invalid_name">Ingrese un nombre de perfil valido</string>
+    <string name="invalid_age">Ingrese su edad correctamente</string>
+</resources>

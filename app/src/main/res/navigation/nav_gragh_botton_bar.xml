@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gragh_botton_bar"
+    app:startDestination="@id/navigation_maps">
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.parktogo.ui.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_navigation_maps_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.parktogo.ui.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" >
+        <action
+            android:id="@+id/action_navigation_settings_to_actualizarPerfilFragment"
+            app:destination="@id/actualizarPerfilFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_actualizarPerfilFragment2"
+            app:destination="@id/actualizarPerfilFragment" />
+        <action
+            android:id="@+id/action_navigation_settings_to_actualizarPasswordFragment"
+            app:destination="@id/actualizarPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_person"
+        android:name="com.parktogo.ui.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_navigation_person_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_navigation_person_to_actualizarPasswordFragment"
+            app:destination="@id/actualizarPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actualizarPerfilFragment"
+        android:name="com.parktogo.ui.ActualizarPerfilFragment"
+        android:label="fragment_actualizar_perfil"
+        tools:layout="@layout/fragment_actualizar_perfil" >
+        <action
+            android:id="@+id/action_actualizarPerfilFragment_to_navigation_person"
+            app:destination="@id/navigation_person" />
+        <action
+            android:id="@+id/action_actualizarPerfilFragment_to_navigation_maps"
+            app:destination="@id/navigation_maps" />
+        <action
+            android:id="@+id/action_actualizarPerfilFragment_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/actualizarPasswordFragment"
+        android:name="com.parktogo.ui.ActualizarPasswordFragment"
+        android:label="fragment_actualizar_password"
+        tools:layout="@layout/fragment_actualizar_password" >
+        <action
+            android:id="@+id/action_actualizarPasswordFragment_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_actualizarPasswordFragment_to_navigation_person"
+            app:destination="@id/navigation_person" />
+        <action
+            android:id="@+id/action_actualizarPasswordFragment_to_navigation_maps"
+            app:destination="@id/navigation_maps" />
+    </fragment>
+</navigation>

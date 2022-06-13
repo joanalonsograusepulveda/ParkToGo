@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.parktogo.ui.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.parktogo.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_passwordFragment"
+            app:destination="@id/passwordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_crearPerfilFragment"
+            app:destination="@id/crearPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.parktogo.ui.PasswordFragment"
+        android:label="fragment_password"
+        tools:layout="@layout/fragment_password" >
+        <action
+            android:id="@+id/action_passwordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+    android:id="@+id/registroFragment"
+    android:name="com.parktogo.ui.RegistroFragment"
+    android:label="fragment_resgitro"
+    tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registroFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registroFragment_to_crearPerfilFragment"
+            app:destination="@id/crearPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearPerfilFragment"
+        android:name="com.parktogo.ui.CrearPerfilFragment"
+        android:label="fragment_crear_perfil"
+        tools:layout="@layout/fragment_crear_perfil" />
+</navigation>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PerfilFragment">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rectangle_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/line_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNombrePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFechaPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageViewFotoPerfil"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageViewEmail1"
+        android:layout_width="126dp"
+        android:layout_height="215dp"
+        android:src="@drawable/cuadro1"
+        android:background="@color/transparent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imageViewEdad1"
+        app:layout_constraintTop_toBottomOf="@id/imageViewFotoPerfil"/>
+
+    <ImageButton
+        android:id="@+id/imageViewEmail2"
+        android:layout_width="110dp"
+        android:layout_height="175dp"
+        android:src="@drawable/cuadro2"
+        android:background="@color/transparent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/imageViewEmail1"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEmail1"
+        app:layout_constraintTop_toTopOf="@id/imageViewEmail1"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewEmail1"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#997588"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/imageViewEmail2"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEmail2"
+        app:layout_constraintStart_toStartOf="@id/imageViewEmail2"/>
+
+    <TextView
+        android:id="@+id/txtCorreoPerfil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEmail2"
+        app:layout_constraintStart_toStartOf="@id/imageViewEmail2"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <ImageButton
+        android:id="@+id/imageViewEdad1"
+        android:layout_width="126dp"
+        android:layout_height="215dp"
+        android:src="@drawable/cuadro1"
+        android:background="@color/transparent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewFotoPerfil"/>
+
+    <ImageButton
+        android:id="@+id/imageViewEdad2"
+        android:layout_width="110dp"
+        android:layout_height="175dp"
+        android:src="@drawable/cuadro2"
+        android:background="@color/transparent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/imageViewEdad1"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEdad1"
+        app:layout_constraintTop_toTopOf="@id/imageViewEdad1"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewEdad1"/>
+
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#997588"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/imageViewEdad2"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEdad2"
+        app:layout_constraintStart_toStartOf="@id/imageViewEdad2"/>
+
+    <TextView
+        android:id="@+id/txtEdadPerfil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imageViewEdad2"
+        app:layout_constraintStart_toStartOf="@id/imageViewEdad2"
+        app:layout_constraintTop_toBottomOf="@id/edad" />
+
+    <ImageButton
+        android:id="@+id/imageViewSexo1"
+        android:layout_width="126dp"
+        android:layout_height="215dp"
+        android:src="@drawable/cuadro1"
+        android:background="@color/transparent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewEdad1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewFotoPerfil"/>
+
+    <ImageButton
+        android:id="@+id/imageViewSexo2"
+        android:layout_width="110dp"
+        android:layout_height="175dp"
+        android:src="@drawable/cuadro2"
+        android:background="@color/transparent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/imageViewSexo1"
+        app:layout_constraintEnd_toEndOf="@id/imageViewSexo1"
+        app:layout_constraintTop_toTopOf="@id/imageViewSexo1"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewSexo1"/>
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#997588"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/imageViewSexo2"
+        app:layout_constraintEnd_toEndOf="@id/imageViewSexo2"
+        app:layout_constraintStart_toStartOf="@id/imageViewSexo2"/>
+
+    <TextView
+        android:id="@+id/txtSexoPerfil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imageViewSexo2"
+        app:layout_constraintStart_toStartOf="@id/imageViewSexo2"
+        app:layout_constraintTop_toBottomOf="@id/sexo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

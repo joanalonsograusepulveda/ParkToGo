@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.RegistroFragment"
+    android:forceDarkAllowed="false">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pistawallpaper2_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:shadowColor="#3E3E3E"
+        android:shadowDx="2"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="ParkToGo"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/alpaca__icon___colour_" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:src="@drawable/ic_login" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="Registrate y crea tu cuenta en
+        ParkToGo"
+        android:textAlignment="center"
+        android:textColor="#997588"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:text="Ingresa tus credenciales"
+        android:textColor="#9E9E9E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEmailRegistro"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:boxBackgroundMode="outline"
+        android:textColorHint="#9E9E9E"
+        app:hintTextColor="#9E9E9E">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu email..."
+            android:inputType="textEmailAddress"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="serif"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#585858"
+            android:textSize="14sp"
+            android:ems="10"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPasswordRegistro"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailRegistro"
+        app:passwordToggleEnabled="true"
+        app:boxBackgroundMode="outline"
+        android:textColorHint="#9E9E9E"
+        app:hintTextColor="#9E9E9E"
+        app:passwordToggleTint="#997588">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu contraseña..."
+            android:inputType="textPassword"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="serif"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#585858"
+            android:textSize="14sp"
+            android:ems="10"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCrearRegistro"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#997588"
+        android:text="Crear cuenta"
+        android:textAllCaps="false"
+        android:textColor="#F7EEE7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPasswordRegistro" />
+
+    <ImageButton
+        android:id="@+id/btnBackButtonRegistro"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_chevron_left_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/btnBackButtonRegistro"
+        android:src="@drawable/line_5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
